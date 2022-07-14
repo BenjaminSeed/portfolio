@@ -1,5 +1,21 @@
+/* 'Amatic SC', cursive; */ 
+/* #FFFF00 yellow */
+/* #FAFAD2 gold */
+
+
+body {
+    background-color: lightslategray;
+}
+
 h1 {
-    color: blue;
+    background-color: #FAFAD2;
+    border: 1px solid #FFFF00;
+    color:darkslategrey;
+    font-size: 50px;
+    text-align: center;
+    width:auto;
+    height:auto;
+    padding: 50px;
 }
 
 h2 {
@@ -7,9 +23,90 @@ h2 {
 }
 
 .test-class {
-    color: blue;
+    color: darkgrey;
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
 }
 
 #paragraph {
     color:coral;
 }
+
+#about-me {
+    color: red;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+}
+
+h4 {
+    color: red;
+}
+
+.hobbies > li {
+    color: red;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.ben {
+    height:auto;
+    width:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.Garden {
+    height: auto;
+    width: auto;
+}
+
+.Description {
+    color: darkgray;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.me {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+}
+
+head {
+    text-decoration: none;
+}
+
+.projects {
+    color: red;
+}
+
+.links {
+    text-align: center;
+    color: darkorange;
+    font-size: 15px;
+}
+
+.image {
+    text-align: center;
+    color: blue;
+    font-size: medium;
+}
+
+.div-element {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: red;
+ }
+ .span-element {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+    display: inline-block;
+ }

@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+        </style>
     <link rel='stylesheet' type='text/css' href='styles.css'>
     <title>Benjamin Seed</title>
 </head>
@@ -8,32 +12,39 @@
     <style>
     </style>
         <nav>
+            <div class='links'>
         <a href="../portfolio/pages/contact.html">Contact</a>
         <a href="../portfolio/pages/projects.html">Projects</a>
+    </div>
         </nav>
         <header>
-    <h1 styles="color: red;">Benjamin Seed</h1>
-    <h2>My name is Benjamin Seed, I am currently studying at Manchester Codes in the June 2022 Cohort in Software Engineering</h2>
-</header>
+    <h1>Benjamin Seed</h1>
+    <h2 class='Description'>My name is Benjamin Seed, I am currently studying at Manchester Codes in the June 2022 Cohort in Software Engineering</h2>
 <main>
     <br />
     <hr />
         <figure>
+            <div class='ben'>
             <img src="../portfolio/images/DSC02372 copy.jpg" alt="Photo_of_Ben">
+        </div>
             <br />
-            <figcaption>Image taken of Ben Seed</figcaption>
+            <figcaption class='image'>Image taken of Ben Seed</figcaption>
         </figure>
         <section>
     <h3 class='test-class'>About Me</h3>
-    <p id="paragraph">Hello, my name is Ben and I currently work as an import merchandiser for a wholesale fashion company. 
+    <div class='me'>
+    <p>Hello, my name is Ben and I currently work as an import merchandiser for a wholesale fashion company. 
         I spend the majority of my free time (what little i now have!) reading and trying to sort my mess of a garden out</p>
-        <p id="paragraph">I got into coding because the I believe it will be one of the most valuable skillsets a person can have in the future.</p>
+        <p>I got into coding because the I believe it will be one of the most valuable skillsets a person can have in the future.</p>
+    </div>
     </section>
         <br />
         <hr />
         <nav>
         <figure>
+            <div class='Garden'>
             <img src="../portfolio/images/BackGarden copy.jpg" alt="Back_Garden">
+        </div>
             <br />
             <figcaption>My Messy Garden</figcaption>
         </figure>
@@ -47,7 +58,7 @@
     </nav>
             <hr />
             <section>
-    <h3>Qualities</h3>
+    <h4 class='Qualities'>Qualities</h4>
     <ol>
         <li>Passionate</li>
         <li>Motivated</li>
@@ -55,7 +66,8 @@
     </ol>
 </section>
 <section>
-    <h3>Hobbies & Interests</h3>
+    <div class='hobbies'>
+    <h5>Hobbies and Interests</h5>
     <ul>
         <li>Reading</li>
         <li>Gardening</li>
@@ -63,4 +75,31 @@
     </ul>
 </section>
     <footer>2022 Benjamin Seed</footer>
+</div>
+    
+<div class="div-element">one</div>
+<div class="div-element">two</div>
+<div class="div-element">three</div>
+<span class="span-element">one</span>
+<span class="span-element">two</span>
+<span class="span-element">three</span>
+
+
+
+    <div id="“socials”">
+        <h3>My Socials</h3>
+        /* These links are just a demo, so i've left the href blank. */
+        <p>Follow me on <a href='https://twitter.com/' data-anchor="social">Twitter</a></p>
+        <p>Follow me on <a href='https://www.instagram.com/' data-anchor="social">Instagram</a></p>
+        /* The below are form elements, we will get to those later on so don't worry
+        about these just yet, we just need them for demo purposes */
+        <input type="checkbox" id="box" name="test-checkbox" checked />
+        <label for="test-checkbox">Check this box for some reason</label>
+        /*The button below is just a demo, so it doesn't do anything, we will add the
+        disabled attribute though, more on that below...*/
+        <div>
+            <button disabled>You can't press this...</button>
+        </div>
+      </div>
+
 </main>
